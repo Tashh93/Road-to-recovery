@@ -15,10 +15,34 @@ body{
     text-align: center;
     width: 100%;
 }
+@keyframes hrColorChange{
+    from {border-color: rgb(56, 187, 230);}
+    to {border-color: white;}
+}
+hr{
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: hrColorChange;
+    border-style: dotted none none;
+    border-radius: 0%;
+    border-color: #eaf6f6;
+    border-width: 10px;
+    width: 20%;
+}
+.first-title{
+    color: white;
+    font-family: 'Lobster',sans-serif;
+    font-size: 50px;
+    position: absolute;
+    left: 43%;
+    top: 2%;
+    text-shadow: 2px 4px 5px goldenrod;
+}
 .title{
     color: white;
     font-family: 'Lobster', sans-serif;
     font-size: 100px;
+    padding: 30px;
     text-shadow: 2px 4px 5px goldenrod;
 }
 .womens-living{
@@ -76,6 +100,7 @@ body{
     bottom: 10%;
     left: 65px;
     height: 165px;
+    padding: 10px;
 }
 .mission-statement2{
     position: relative;
@@ -83,14 +108,16 @@ body{
     top: 60%;
     height: 175px;
     width: 60%;
+    padding: 10px;
 }
 .mission-statement3{
     position:relative;
-    left:40%;
+    left:48%;
     top: 96%;
     bottom: 15%;
-    height: 190px;
-    width: 60%;
+    height: 220px;
+    width: 50%;
+    padding: 10px;
 }
 li{
 
@@ -160,7 +187,4 @@ li{
     border-style: 1px solid white;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.bottom-container{
-
 }
