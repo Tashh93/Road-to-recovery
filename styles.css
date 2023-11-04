@@ -14,9 +14,6 @@ body{
     padding: 10px;
     text-align: center;
     width: 100%;
-
-}
-.header-container{
 }
 .title{
     color: white;
@@ -67,6 +64,34 @@ body{
     font-size: 35px;
     text-shadow: 2px goldenrod;
 }
+.mission-statement1, .mission-statement2, .mission-statement3{
+    color: white;
+    border: 4px solid goldenrod;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    width: 35%;
+}
+.mission-statement1{
+    position: relative;
+    bottom: 10%;
+    left: 65px;
+    height: 165px;
+}
+.mission-statement2{
+    position: relative;
+    left: 20%;
+    top: 60%;
+    height: 175px;
+    width: 60%;
+}
+.mission-statement3{
+    position:relative;
+    left:40%;
+    top: 96%;
+    bottom: 15%;
+    height: 190px;
+    width: 60%;
+}
 li{
 
     list-style: none;
@@ -77,8 +102,65 @@ li{
     background-image: url(/Images/helping.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    position: relative;
+    right: 9px;
+    bottom: 10px;
+    height: 75%;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
 }
 .final{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    color: goldenrod;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 45px;
+}
+.bold-red{
+    color: red;
+    font-size: 50px;
+    font-weight: 800;
+}
+.final-change{
+    color: goldenrod;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+.together-quote{
+    color: goldenrod;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+.bold-white{
+    color:white;
+}
+.contact-container{
+    background-color: goldenrod;
+    background-position: 100% 100%;
+    background-size: 100% 100%;
+    position: relative;
+    right: 9px;
+    bottom: 10px;
+    height: 75%;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.contact{
+    color: white;
+    font-family: 'Lobster', sans-serif;
+    font-size: 45px;
+}
+.help{
+    color: white;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact-me{
+    border-style: 1px solid white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bottom-container{
+
 }
