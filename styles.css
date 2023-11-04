@@ -30,7 +30,12 @@ body{
     font-size: 40px;
     text-shadow: 2px 3px 5px white;
 }
-.intro, .mission-statement{
+.intro{
+    color: goldenrod;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+.mission-statement{
     color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
@@ -71,5 +76,9 @@ li{
 .final-info-container{
     background-image: url(/Images/helping.jpg);
     background-repeat: no-repeat;
-    width: 250px;
+    background-size: 100% 100%;
+}
+.final{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-size: 45px;
 }
