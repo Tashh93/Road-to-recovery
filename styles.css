@@ -1,0 +1,75 @@
+html{
+    background-color: rgb(56, 187, 230);
+}
+body{
+    text-align: center;
+}
+.full-background{
+    background-image: url(/Images/Road2recovery.jpg);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    right: 9px;
+    bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+
+}
+.header-container{
+}
+.title{
+    color: white;
+    font-family: 'Lobster', sans-serif;
+    font-size: 100px;
+    text-shadow: 2px 4px 5px goldenrod;
+}
+.womens-living{
+    color: goldenrod;
+    font-family: 'Lobster', sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 3px 5px white;
+}
+.intro, .mission-statement{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+.vision-container{
+    background-color: white;
+    background-size: 100% 100%;
+    position: relative;
+    right: 9px;
+    top: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.vision-title{
+    color: goldenrod;
+    font-family: 'Lobster', sans-serif;
+    font-size: 60px;
+}
+.mission-title {
+    color: white;
+    font-family: 'Lobster', sans-serif;
+    font-size: 80px;
+    text-shadow: 3px 4px 5px goldenrod;
+}
+.support-statement, .promotion {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    text-shadow: 2px goldenrod;
+}
+li{
+
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+.final-info-container{
+    background-image: url(/Images/helping.jpg);
+    background-repeat: no-repeat;
+    width: 250px;
+}
